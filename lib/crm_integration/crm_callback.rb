@@ -3,7 +3,7 @@ module CrmCallback
   
   included do
     after_create { CrmLeadRepository.post(self) } 
-    after_update { CrmLeadRepository.update(self) } 
+    after_update { CrmLeadRepository.put(self) } 
     after_destroy { CrmLeadRepository.delete(self) }
   end
   
