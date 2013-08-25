@@ -1,5 +1,1 @@
-class CrmIntegration
-  
-  
-  
-end
+require 'crm_integration/crm_callback'
