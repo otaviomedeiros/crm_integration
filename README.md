@@ -23,7 +23,7 @@ After you install Zoho CRM integration and add it to your Gemfile, you need to r
 rails generate crm_integration
 ```
 
-It generates an initializer where you configure it with your Zoho CRM Authentication Token (https://www.zoho.com/crm/help/api/using-authentication-token.html).
+It generates an initializer where you configure it with your **[Zoho CRM Authentication Token](https://www.zoho.com/crm/help/api/using-authentication-token.html)**.
 
 
 
