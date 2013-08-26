@@ -1,13 +1,8 @@
-crm_integration
-===============
-
-A simple Leads/CRM integration gem
-
-Zoho CRM Integration 
+# Zoho CRM Integration 
 
 Zoho CRM integration is a simple gem where you can post, put and delete Leads to Zoho CRM.
 
-Using with Rails
+## Using with Rails
 
 To use Zoho CRM integration with Rails, simply add crm_integration to your Gemfile and run bundle install.
 
