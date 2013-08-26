@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'crm_integration'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2013-08-24'
   s.summary     = "RD CRM Integration"
   s.description = "A simple CRM integration for test"
