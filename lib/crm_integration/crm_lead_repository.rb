@@ -2,8 +2,8 @@ class CrmLeadRepository
   extend LeadMapping
   
   def self.post(rd_lead)
-    zoho_lead = RubyZoho::Crm::Lead.new(map_from(rd_lead))
-    zoho_lead.save
+    crm_lead = RubyZoho::Crm::Lead.new(map_from(rd_lead))
+    crm_lead.save
   end
   
   def self.put(rd_lead)
