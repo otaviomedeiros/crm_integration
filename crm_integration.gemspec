@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'crm_integration'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2013-08-24'
   s.summary     = "RD CRM Integration"
   s.description = "A simple CRM integration for test"
@@ -18,7 +18,4 @@ Gem::Specification.new do |s|
   
   s.add_dependency 'activesupport', '3.2.13'
   s.add_dependency 'rubyzoho', '0.1.7'
-  
-  # s.add_development_dependency 'rake'
-  # s.add_development_dependency 'rspec'
 end
